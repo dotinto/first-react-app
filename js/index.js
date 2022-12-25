@@ -1,6 +1,13 @@
 const placeholder = "Hello, world!"
 
-const elements = <input placeholder={placeholder}/>
-const app = document.getElementById("app")
+class App extends React.Components {
+  render() {
+    return (
+      <input placeholder={placeholder}/>
+    )
+  }
+}
 
-ReactDOM.render(elements, app)
+const root = document.getElementById("app")
+
+ReactDOM.render(<App />, root)
