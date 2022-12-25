@@ -1,4 +1,4 @@
-const placeholder = "Hello, world!"
+const placeholder = "Hello, world!";
 
 class App extends React.Components {
   
