@@ -1,9 +1,8 @@
-const placeholder = "Hello, world!"
-
 class App extends React.Components {
+  placeholder = "Hello, world!"
   render() {
     return (
-      <input placeholder={placeholder}/>
+      <input placeholder={this.placeholder}/>
     )
   }
 }
